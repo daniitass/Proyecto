@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth; /*scrollea suave */
+}
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #f7f7f7;
+    background-color: #050303;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+header div {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#080000d2 ;
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+    
+
+}
+header nav a {
+    margin: 0px 20px;
+    padding: 12px; /*para agrandar la caja y mejorar el area de clic*/
+}
+header nav a:hover{
+    border-bottom: 1px solid #44D62C;
+    transition: 0.3s;
+    border-radius: 10% 10% 0 0;
+    box-shadow: 0 0 8px #272727;
+    transform:scale(1.01);
+}
+header div a img {
+    width: 70px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 30%;
+}
+main{
+    background-color: #8301B8;
+    min-height:500px; /* solo para ver la plantilla*/
+
+}
+    
+    #contenedormain{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background:url(../imagenes/fondo.jpg);
+    }
+
+    #Buscador{
+        background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+        background-size: 35px;
+        width: 400px;
+        border: transparent;
+        border-bottom: solid 1px #ccc;
+        padding: 15px 10px 10px 40px;
+        outline: none;
+        background-color: #fff;
+        margin-top: 40px;
+        text-align: center;
+      }
+
+        #contenido{
+            padding: 70px;
+            /*width: 1200px;*/ /*queda comentado para q se ajuste a los monitores*/
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+            #contenido article{
+            width: 326px;
+            height: 300px;
+            margin-bottom: 76px;
+            background: #701794; 
+            background: radial-gradient(circle, rgba(112,23,148,1) 0%, rgba(64,12,101,1) 52%, rgba(19,4,47,1) 80%, rgba(31,3,68,1) 100%); 
+            border-radius: 50%;
+            text-align: center;
+            align-items: center;
+            }
+            #contenido article img{
+            margin-right: 8px;
+            position: relative;
+            top: 50px;
+            }
+            #contenido article h2{
+            margin-right: 12px;
+            position: relative;
+            top: 70px;
+            }
+
+
+            #nosotros{
+                height: 500px;
+                text-align: center;
+                padding: 50px;
+            } 
+
+            h1{
+                width: 100%;
+                background: rgb(68,214,44);
+                background: radial-gradient(circle, rgba(68,214,44,1) 4%, rgba(4,4,2,1) 90%);
+                color: #fff;
+                font-size: 80px;
+               text-align: center;
+                margin-bottom: 40px;
+            }
+            #nosotros h2{
+                margin-bottom: 40px;
+            }
+.fondo-secciones{
+  
+    background: #701794; 
+    background: radial-gradient(circle, rgba(112,23,148,1) 0%, rgba(64,12,101,1) 52%, rgba(19,4,47,1) 80%, rgba(31,3,68,1) 100%); 
+}
+
+/*Cursos*/
+
+/*Videos*/
+
+/*Juegos*/
+
+/*Carreras*/
+    
+/*Recursos*/
+
+/*comenta*/
+
+
+
+/*footer*/
+footer {
+    background-color: #050303;
+    border: 4px solid #44D62C;
+   
+}
+    #contenidofooter{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100PX;
+        align-items: center;
+        height: 150px;
+    }
+
+    #contenidofooter a{
+        color: white;
+        font-weight: 600;
+    }
+    #logo-footer img{
+        width: 100px;
+        margin-right: 8px;
+        vertical-align: middle;
+        border-radius: 30%;
+    }
+
+    footer div a img{
+        width: 80px;
+        margin-left: 8px;
+        border-radius: 30%;
+    }
